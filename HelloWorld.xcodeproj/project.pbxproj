@@ -14,6 +14,9 @@
 		2DB8B6781AB8E4E4005FFFD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8B6771AB8E4E4005FFFD1 /* Images.xcassets */; };
 		2DB8B67B1AB8E4E4005FFFD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8B6791AB8E4E4005FFFD1 /* LaunchScreen.xib */; };
 		2DB8B6871AB8E4E5005FFFD1 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B6861AB8E4E5005FFFD1 /* HelloWorldTests.m */; };
+		2DB8B6931AB8F1CA005FFFD1 /* SelectLanguageTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B6921AB8F1CA005FFFD1 /* SelectLanguageTVC.m */; };
+		2DB8B6971AB8FB5B005FFFD1 /* ShowGreetingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B6961AB8FB5B005FFFD1 /* ShowGreetingsVC.m */; };
+		2DB8B69A1AB9193C005FFFD1 /* ByeLanguageTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8B6991AB9193C005FFFD1 /* ByeLanguageTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		2DB8B6801AB8E4E5005FFFD1 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB8B6851AB8E4E5005FFFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB8B6861AB8E4E5005FFFD1 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		2DB8B6911AB8F1CA005FFFD1 /* SelectLanguageTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLanguageTVC.h; sourceTree = "<group>"; };
+		2DB8B6921AB8F1CA005FFFD1 /* SelectLanguageTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLanguageTVC.m; sourceTree = "<group>"; };
+		2DB8B6951AB8FB5B005FFFD1 /* ShowGreetingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowGreetingsVC.h; path = ../ShowGreetingsVC.h; sourceTree = "<group>"; };
+		2DB8B6961AB8FB5B005FFFD1 /* ShowGreetingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowGreetingsVC.m; path = ../ShowGreetingsVC.m; sourceTree = "<group>"; };
+		2DB8B6981AB9193C005FFFD1 /* ByeLanguageTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByeLanguageTVC.h; sourceTree = "<group>"; };
+		2DB8B6991AB9193C005FFFD1 /* ByeLanguageTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByeLanguageTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,7 @@
 		2DB8B6691AB8E4E4005FFFD1 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				2DB8B66E1AB8E4E4005FFFD1 /* AppDelegate.h */,
-				2DB8B66F1AB8E4E4005FFFD1 /* AppDelegate.m */,
-				2DB8B6711AB8E4E4005FFFD1 /* ViewController.h */,
-				2DB8B6721AB8E4E4005FFFD1 /* ViewController.m */,
+				2DB8B6941AB8F1D9005FFFD1 /* Controladores */,
 				2DB8B6741AB8E4E4005FFFD1 /* Main.storyboard */,
 				2DB8B6771AB8E4E4005FFFD1 /* Images.xcassets */,
 				2DB8B6791AB8E4E4005FFFD1 /* LaunchScreen.xib */,
@@ -96,6 +102,8 @@
 		2DB8B66A1AB8E4E4005FFFD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2DB8B66E1AB8E4E4005FFFD1 /* AppDelegate.h */,
+				2DB8B66F1AB8E4E4005FFFD1 /* AppDelegate.m */,
 				2DB8B66B1AB8E4E4005FFFD1 /* Info.plist */,
 				2DB8B66C1AB8E4E4005FFFD1 /* main.m */,
 			);
@@ -117,6 +125,21 @@
 				2DB8B6851AB8E4E5005FFFD1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DB8B6941AB8F1D9005FFFD1 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8B6981AB9193C005FFFD1 /* ByeLanguageTVC.h */,
+				2DB8B6991AB9193C005FFFD1 /* ByeLanguageTVC.m */,
+				2DB8B6911AB8F1CA005FFFD1 /* SelectLanguageTVC.h */,
+				2DB8B6921AB8F1CA005FFFD1 /* SelectLanguageTVC.m */,
+				2DB8B6951AB8FB5B005FFFD1 /* ShowGreetingsVC.h */,
+				2DB8B6961AB8FB5B005FFFD1 /* ShowGreetingsVC.m */,
+				2DB8B6711AB8E4E4005FFFD1 /* ViewController.h */,
+				2DB8B6721AB8E4E4005FFFD1 /* ViewController.m */,
+			);
+			name = Controladores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB8B69A1AB9193C005FFFD1 /* ByeLanguageTVC.m in Sources */,
 				2DB8B6731AB8E4E4005FFFD1 /* ViewController.m in Sources */,
 				2DB8B6701AB8E4E4005FFFD1 /* AppDelegate.m in Sources */,
 				2DB8B66D1AB8E4E4005FFFD1 /* main.m in Sources */,
+				2DB8B6931AB8F1CA005FFFD1 /* SelectLanguageTVC.m in Sources */,
+				2DB8B6971AB8FB5B005FFFD1 /* ShowGreetingsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

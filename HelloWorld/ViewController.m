@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *text;
+
 @end
 
 @implementation ViewController
@@ -22,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)sayHello:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Test message" message:@"Hello World" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
 }
 
 @end
